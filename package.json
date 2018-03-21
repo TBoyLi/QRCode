@@ -1,0 +1,27 @@
+{
+  "name": "QRCode",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-camera": "^1.0.2",
+    "react-native-qrcode": "^0.2.6",
+    "react-native-simple-toast": "0.0.8",
+    "react-navigation": "^1.5.8"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.0-alpha.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
